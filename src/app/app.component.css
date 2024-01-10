@@ -1,3 +1,17 @@
 .form-inline {
     display: flex !important;
 }
+
+  /* Dodajemy styl tylko dla karty ze zdjęciem */
+  .custom-card {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+  }
+
+  /* Ustawiamy obrazek jako elastyczny, aby nie wpływał na wysokość karty */
+  .custom-card img {
+    flex-shrink: 0;
+    width: 100%;
+    height: auto;
+  }
